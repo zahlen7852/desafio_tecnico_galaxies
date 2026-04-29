@@ -35,6 +35,7 @@ Dimensões:
              name
     
 Associativas:
+
     pokemon_ability:
      Colunas:
              pokemon_id
