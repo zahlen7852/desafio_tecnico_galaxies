@@ -64,7 +64,7 @@ docker exec -it pokemon-etl sh
 psql -U postgres -d pokemon_db
 
 #quinto comando - verificar as tabelas  - 
-# eu coloquei para rodar uma query no final da execução mostrando 5 linhas de cada tabela, mas se for necessário, podem rodar alguma query no postgres
+eu coloquei para rodar uma query no final da execução mostrando 5 linhas de cada tabela, mas se for necessário, podem rodar alguma query no postgres
 
 Exemplo opcional com nomes (Pokemon + geracao):
 
