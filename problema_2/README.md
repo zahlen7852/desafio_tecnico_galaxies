@@ -1,4 +1,4 @@
-# Visão Geral
+# Problema 2
 
 Usei um modelo normalizado para evitar dados repetidos e manter organização.
 A tabela pokemon guarda os dados principais de cada Pokémon.
