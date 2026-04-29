@@ -7,7 +7,8 @@ A tabela generation guarda a geração de cada Pokémon, e pokemon se conecta a 
 Como um Pokémon pode ter várias habilidades e vários golpes, usei tabelas de associação (pokemon_ability e pokemon_move) para representar essas relações.
 
 Fato: 
-    pokemon
+
+    pokemon:
      Colunas:
             id
             name
@@ -17,7 +18,8 @@ Fato:
             generation_id
 
 Dimensões:
-    generation
+
+    generation:
      Colunas: 
             id
             name
