@@ -1,4 +1,4 @@
-# Problema 3 - Arquitetura de Dados
+# Problema 3
 
 ## Escolha da arquitetura
 
@@ -29,7 +29,7 @@ Essa abordagem atende melhor aos criterios de governanca, escalabilidade, manute
 ### 3) Manutencao
 
 - DAGs no Airflow centralizam agendamentos e dependencias entre etapas e observabilidade para as pipelines..
-- Reprocessamento por particao (ex.: data) reduz risco e custo operacional.
+- Reprocessamento por partição (ex.: data) reduz risco e custo operacional.
 - Separar ingestao e transformacao simplifica testes e evolução de regras de negocio.
 - Disponibilizar os dados na camada `analytics` reduz a quantidade de transformações necessárias no BI pois os dados já estão 'prontos'.
 
